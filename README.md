@@ -1,16 +1,47 @@
-# React + Vite
+🚀 Full-Stack Login & User Management System | Flask + ReactJS + MySQL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I’ve built a complete full-stack authentication system integrating Python (Flask) for the backend, ReactJS for the frontend, and MySQL as the database — all developed in VS Code.
 
-Currently, two official plugins are available:
+This project covers everything from signup and login to password reset via email, with a secure token-based mechanism.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧩 Key Features:
 
-## React Compiler
+✅ User Signup & Login with secure password hashing (bcrypt)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Forgot & Reset Password via tokenized email link
 
-## Expanding the ESLint configuration
+✅ MySQL database integration for storing users & employee data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Dynamic ReactJS Table component to display employee data
+
+✅ REST API integration between Flask backend and React frontend
+
+✅ CORS-enabled Flask app for seamless frontend-backend communication
+
+✅ Clean UI with React Router for smooth navigation
+
+🛠 Tech Stack:
+
+Frontend: ReactJS, React Router, CSS
+
+Backend: Python Flask, bcrypt, smtplib for email
+
+Database: MySQL
+
+Tools: VS Code
+
+💡 What I Learned:
+
+Handling authentication and secure password storage
+
+Connecting frontend React components with a Flask API
+
+Implementing token-based password reset flow
+
+Building dynamic tables from API data
+
+Real-world full-stack development workflow
+
+This project demonstrates a hands-on understanding of full-stack development, covering frontend, backend, database, and security best practices.
+
+#Python #Flask #ReactJS #MySQL #FullStackDevelopment #WebDevelopment #Authentication #VSCode #CodingJourney
