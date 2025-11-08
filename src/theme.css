@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #6366f1;        /* Indigo */
+  --accent: #10b981;         /* Emerald */
+  --bg: #0f172a;             /* Deep Navy */
+  --card: rgba(30, 41, 59, 0.95); /* Glass Card */
+  --text-primary: #f8fafc;   /* White */
+  --text-secondary: #94a3b8; /* Gray */
+  --border: rgba(255, 255, 255, 0.08);
+  --error: #ef4444;
+  --success: #22c55e;
+  --hover: #4f46e5;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}

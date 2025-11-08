@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1e40af;
+  --accent: #f59e0b;
+  --bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --error: #ef4444;
+  --success: #22c55e;
+  --border: #e5e7eb;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
